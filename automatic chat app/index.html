@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>chatbox</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="chatbox-wrapper">
+        <div class="chatbox-toggle">
+            <i class='bx bx-message-rounded-dots'></i>
+        </div>
+        <div class="chatbox-massage-wrapper">
+            <div class="chatbox-massage-header">
+                <div class="chatbox-massage-profile">
+                    <img src="people/people.jpg" alt="" class="chatbox-massage-image">
+                    <div>
+                        <h4 class="chatbox-message-name">
+                            Jonathan Deo
+                        </h4>
+                        <p class="chatbox-message-status">online</p>
+                    </div>
+                </div>
+            </div>
+            <div class="chatbox-message-dropdown">
+                <i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+                <ul class="chatbox-message-dropdown-menu">
+                    <li>
+                        <a href="#">Search</a>
+                    </li>
+                    <li>
+                        <a href="#">Report</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="chatbox-message-content">
+                <h4 class="chatbox-massage-no-message">You dont have any message yet!</h4>
+                <!--<div class="chatbox-message-item sent">
+                    <span class="chatbox-message-item-text">
+                        Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+                    </span>
+                    <span class="chatbox-messag-item-time">08:30</span>
+                </div>
+                <div class="chatbox-message-item received">
+                    <span class="chatbox-message-item-text">
+                        Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+                    </span>
+                    <span class="chatbox-messag-item-time">08:30</span>
+                </div>-->
+            </div>
+            <div class="chatbox-massage-bottom">
+                <form action="#" class="chatbox-massage-form">
+                    <textarea rows="1" placeholder="Type message..." class="chatbox-massage-input" ></textarea>
+                    <button type="submit" class=" chatbox-massage-submit"><i class='bx bx-send'></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="chatbot.js"></script>
+</body>
+</html>
